@@ -10,6 +10,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{4521032B-3107-4571-888E-650844FC6B10}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{42FAC55D-6A08-4B3D-A565-E4750FC2DA78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AD2FDB91-8D1D-4D81-AF45-4FD29E355674}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{49953C5C-A786-4566-B759-47B3DD755217}"
+	ProjectSection(SolutionItems) = preProject
+		Architecture_UML_Diagram.puml = Architecture_UML_Diagram.puml
+		Sequence_Controller_Call.puml = Sequence_Controller_Call.puml
+		Solution_Structure.puml = Solution_Structure.puml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,5 +37,8 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ED1D530F-800E-4140-9EA5-54C9117CCA38}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4521032B-3107-4571-888E-650844FC6B10} = {42FAC55D-6A08-4B3D-A565-E4750FC2DA78}
 	EndGlobalSection
 EndGlobal

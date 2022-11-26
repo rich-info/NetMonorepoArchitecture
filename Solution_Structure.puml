@@ -1,0 +1,23 @@
+﻿@startuml
+package src #DDDDDD {
+  note as noteSrc
+    Source code
+    Multiple projects in a solution
+   end note
+}
+
+package tests #AAAAAA {
+  note as noteTests
+    Test projects
+    Unit tests
+    Integration tests
+   end note
+}
+
+package docs {
+  note as noteDocs
+    Documentation and diagrams
+   end note
+}
+
+@enduml

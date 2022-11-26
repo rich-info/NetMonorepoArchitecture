@@ -1,0 +1,7 @@
+﻿@startuml
+User -> Controller: GET request /customers
+Controller --> Service: GetCustomers
+
+Service -> Controller: List of customer
+Controller --> User: List of customer
+@enduml
